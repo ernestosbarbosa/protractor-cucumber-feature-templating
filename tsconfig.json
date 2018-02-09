@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": "build",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "types": ["node"],
+    "allowJs": true
+  },
+  "files": [
+    "build/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "reports"
+  ]
+}
