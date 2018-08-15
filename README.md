@@ -1,6 +1,6 @@
 ### Protractor + Cucumber feature templating ###
 
-Projeto para automação de testes utilizando protractor e Cucumber, utilizando templates para criar features em tempo de execução. Dessa forma é possível executar os testes em múltiplos ambientes (desenvolvimento, homologação, produção ou atá ambientes com mock).
+Projeto para automação de testes utilizando protractor e Cucumber, utilizando templates para criar features em tempo de execução. Dessa forma é possível executar os testes em múltiplos ambientes (desenvolvimento, homologação, produção ou até ambientes com mock).
 
 #### Iniciando
 Use o comando `npm i` para instalar as dependências do projeto. Depois de clonado, `npm run test` para executá-lo. Nenhuma outra configuração deve ser necessária para iniciar.
