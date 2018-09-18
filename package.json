@@ -8,7 +8,7 @@
     "build": "gulp --conf dev",
     "build:hml": "gulp --conf hml",
     "protractor": "protractor dist/conf.js",
-    "postinstall": "typings install",
+    "postinstall": "typings install && webdriver-manager update",
     "pretest": "npm run build",
     "test": "npm run protractor"
   },

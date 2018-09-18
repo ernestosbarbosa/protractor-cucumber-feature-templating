@@ -29,7 +29,7 @@ export let config: Config = {
       },
     }],
   directConnect: true,
-  chromeDriver: "C:/chromedriver/chromedriver.exe",
+  chromeDriver: `../node_modules/webdriver-manager/selenium/chromedriver_2.26${process.platform.indexOf('win') === 0 ? '.exe' : ''}`,
   getPageTimeout: 20000,
   allScriptsTimeout: 600000,
   suites: {
@@ -38,7 +38,7 @@ export let config: Config = {
     ]
   },
   params: {
-    home: 'https://material.angular.io/components/categories'
+    home: 'www.google.com.br'
   },
   ignoreUncaughtExceptions: true,
   afterLaunch: () => {
