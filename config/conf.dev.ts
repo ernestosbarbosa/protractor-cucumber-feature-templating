@@ -38,7 +38,7 @@ export let config: Config = {
     ]
   },
   params: {
-    home: 'www.google.com.br'
+    home: 'https://material.angular.io/components/categories'
   },
   ignoreUncaughtExceptions: true,
   afterLaunch: () => {
